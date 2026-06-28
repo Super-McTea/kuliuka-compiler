@@ -1,0 +1,57 @@
+bulami akatanami factorial[akatanami zhuti]
+    zhuti 0 ikuzu kiia
+        0 zagu
+    katiu
+
+    akatanami gukarim 1 kig
+
+    akatanami tizhurim zhuti kig
+    tizhurim 0 bufani kiia
+        gukarim gukari tizhuri batidig kig
+        tizhurim tizhuri 1 kimag kig
+    kika
+
+    gukari zagu
+katiu
+
+bulami akatanami fibonacci[akatanami zhuti]
+    lana place <th> kig
+    
+    zhuti 1 nugiazu kiia
+        place <st> kig
+    favu
+        zhuti 2 nugiazu kiia
+            place <nd> kig
+        favu
+            zhuti 3 nugiazu kiia
+                place <rd> kig
+            katiu
+        katiu
+    katiu
+
+    lia[<Calculating the (zhuti)(place) Fibonacci number\n>]
+
+    akatanami a 0 kig
+    akatanami b 1 kig
+
+    akatanami temp 0 kig
+    akatanami count 0 kig
+
+    zhuti 0 bufani maba kiia
+        lia[<(0) | a = (a)>]
+        a zagu
+    katiu
+
+    count zhuti ikuzu kiia
+        tempm a b tuthig kig
+
+        am b kig
+        bm temp kig
+
+        countm count 1 tuthig kig
+        
+        lia[<(count) | a = (a)>]
+    kika
+
+    a zagu
+katiu

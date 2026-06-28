@@ -1,0 +1,540 @@
+{
+    "type": "Program",
+    "statements": [
+        {
+            "ImportStatement": {
+                "type": "ImportStatement",
+                "file_path": "loco_adder.klk"
+            }
+        },
+        {
+            "ImportStatement": {
+                "type": "ImportStatement",
+                "file_path": "math.kuliuka"
+            }
+        },
+        {
+            "FunctionStatement": {
+                "type": "FunctionStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "fibonacci"
+                },
+                "return_type": "akatanami",
+                "parameters": [
+                    {
+                        "type": "FunctionParameter",
+                        "name": "zhuti",
+                        "value_type": "akatanami"
+                    }
+                ],
+                "body": {
+                    "type": "BlockStatement",
+                    "statements": [
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "place"
+                            },
+                            "value": {
+                                "type": "StringExpression",
+                                "contents": [
+                                    {
+                                        "type": "StringLiteral",
+                                        "value": "th"
+                                    }
+                                ]
+                            },
+                            "value_type": "lana"
+                        },
+                        {
+                            "type": "IfStatement",
+                            "condition": {
+                                "type": "InfixExpression",
+                                "left_node": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "zhuti"
+                                },
+                                "operator": "nugiazu",
+                                "right_node": {
+                                    "type": "IntegerLiteral",
+                                    "value": 1
+                                }
+                            },
+                            "consequence": {
+                                "type": "BlockStatement",
+                                "statements": [
+                                    {
+                                        "type": "AssignStatement",
+                                        "ident": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "place"
+                                        },
+                                        "right_value": {
+                                            "type": "StringExpression",
+                                            "contents": [
+                                                {
+                                                    "type": "StringLiteral",
+                                                    "value": "st"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "alternative": {
+                                "type": "BlockStatement",
+                                "statements": [
+                                    {
+                                        "type": "IfStatement",
+                                        "condition": {
+                                            "type": "InfixExpression",
+                                            "left_node": {
+                                                "type": "IdentifierLiteral",
+                                                "value": "zhuti"
+                                            },
+                                            "operator": "nugiazu",
+                                            "right_node": {
+                                                "type": "IntegerLiteral",
+                                                "value": 2
+                                            }
+                                        },
+                                        "consequence": {
+                                            "type": "BlockStatement",
+                                            "statements": [
+                                                {
+                                                    "type": "AssignStatement",
+                                                    "ident": {
+                                                        "type": "IdentifierLiteral",
+                                                        "value": "place"
+                                                    },
+                                                    "right_value": {
+                                                        "type": "StringExpression",
+                                                        "contents": [
+                                                            {
+                                                                "type": "StringLiteral",
+                                                                "value": "nd"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "alternative": {
+                                            "type": "BlockStatement",
+                                            "statements": [
+                                                {
+                                                    "type": "IfStatement",
+                                                    "condition": {
+                                                        "type": "InfixExpression",
+                                                        "left_node": {
+                                                            "type": "IdentifierLiteral",
+                                                            "value": "zhuti"
+                                                        },
+                                                        "operator": "nugiazu",
+                                                        "right_node": {
+                                                            "type": "IntegerLiteral",
+                                                            "value": 3
+                                                        }
+                                                    },
+                                                    "consequence": {
+                                                        "type": "BlockStatement",
+                                                        "statements": [
+                                                            {
+                                                                "type": "AssignStatement",
+                                                                "ident": {
+                                                                    "type": "IdentifierLiteral",
+                                                                    "value": "place"
+                                                                },
+                                                                "right_value": {
+                                                                    "type": "StringExpression",
+                                                                    "contents": [
+                                                                        {
+                                                                            "type": "StringLiteral",
+                                                                            "value": "rd"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alternative": null
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "ExpressionStatement",
+                            "expr": {
+                                "type": "CallExpression",
+                                "function": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "lia"
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "StringExpression",
+                                        "contents": [
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": "Calculating the "
+                                            },
+                                            {
+                                                "type": "IdentifierLiteral",
+                                                "value": "zhuti"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": " "
+                                            },
+                                            {
+                                                "type": "IdentifierLiteral",
+                                                "value": "place"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": " Fibonacci number\n"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 0
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "b"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 1
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "temp"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 0
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "count"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 0
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "WhileStatement",
+                            "condition": {
+                                "type": "SuffixExpression",
+                                "operator": "maba",
+                                "left_node": {
+                                    "type": "InfixExpression",
+                                    "left_node": {
+                                        "type": "IdentifierLiteral",
+                                        "value": "count"
+                                    },
+                                    "operator": "bufani",
+                                    "right_node": {
+                                        "type": "IdentifierLiteral",
+                                        "value": "zhuti"
+                                    }
+                                }
+                            },
+                            "body": {
+                                "type": "BlockStatement",
+                                "statements": [
+                                    {
+                                        "type": "AssignStatement",
+                                        "ident": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "temp"
+                                        },
+                                        "right_value": {
+                                            "type": "InfixExpression",
+                                            "left_node": {
+                                                "type": "IdentifierLiteral",
+                                                "value": "a"
+                                            },
+                                            "operator": "tuthi",
+                                            "right_node": {
+                                                "type": "IdentifierLiteral",
+                                                "value": "b"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "AssignStatement",
+                                        "ident": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "a"
+                                        },
+                                        "right_value": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "b"
+                                        }
+                                    },
+                                    {
+                                        "type": "AssignStatement",
+                                        "ident": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "b"
+                                        },
+                                        "right_value": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "temp"
+                                        }
+                                    },
+                                    {
+                                        "type": "ExpressionStatement",
+                                        "expr": {
+                                            "type": "CallExpression",
+                                            "function": {
+                                                "type": "IdentifierLiteral",
+                                                "value": "lia"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "StringExpression",
+                                                    "contents": [
+                                                        {
+                                                            "type": "StringLiteral",
+                                                            "value": ""
+                                                        },
+                                                        {
+                                                            "type": "IdentifierLiteral",
+                                                            "value": "count"
+                                                        },
+                                                        {
+                                                            "type": "StringLiteral",
+                                                            "value": " | a = "
+                                                        },
+                                                        {
+                                                            "type": "IdentifierLiteral",
+                                                            "value": "a"
+                                                        },
+                                                        {
+                                                            "type": "StringLiteral",
+                                                            "value": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "AssignStatement",
+                                        "ident": {
+                                            "type": "IdentifierLiteral",
+                                            "value": "count"
+                                        },
+                                        "right_value": {
+                                            "type": "InfixExpression",
+                                            "left_node": {
+                                                "type": "IdentifierLiteral",
+                                                "value": "count"
+                                            },
+                                            "operator": "tuthi",
+                                            "right_node": {
+                                                "type": "IntegerLiteral",
+                                                "value": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "ReturnStatement",
+                            "return_value": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "FunctionStatement": {
+                "type": "FunctionStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "akamuri"
+                },
+                "return_type": "akatanami",
+                "parameters": [],
+                "body": {
+                    "type": "BlockStatement",
+                    "statements": [
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "fibo"
+                            },
+                            "value": {
+                                "type": "CallExpression",
+                                "function": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "fibonacci"
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "IntegerLiteral",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "factor"
+                            },
+                            "value": {
+                                "type": "IdentifierLiteral",
+                                "value": "fibo"
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "ExpressionStatement",
+                            "expr": {
+                                "type": "CallExpression",
+                                "function": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "lia"
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "StringExpression",
+                                        "contents": [
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": "\nCalculating factorial of "
+                                            },
+                                            {
+                                                "type": "IdentifierLiteral",
+                                                "value": "factor"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "LetStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "gukari"
+                            },
+                            "value": {
+                                "type": "CallExpression",
+                                "function": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "factorial"
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "IdentifierLiteral",
+                                        "value": "factor"
+                                    }
+                                ]
+                            },
+                            "value_type": "akatanami"
+                        },
+                        {
+                            "type": "ExpressionStatement",
+                            "expr": {
+                                "type": "CallExpression",
+                                "function": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "lia"
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "StringExpression",
+                                        "contents": [
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": "   "
+                                            },
+                                            {
+                                                "type": "IdentifierLiteral",
+                                                "value": "factor"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": "! is "
+                                            },
+                                            {
+                                                "type": "IdentifierLiteral",
+                                                "value": "gukari"
+                                            },
+                                            {
+                                                "type": "StringLiteral",
+                                                "value": "\n"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "ReturnStatement",
+                            "return_value": {
+                                "type": "CallExpression",
+                                "function": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "loco_adder"
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "IdentifierLiteral",
+                                        "value": "gukari"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<loco_adder.klk> zhibalia
+<math.kuliuka> zhibalia
+
+bulami akatanami akamuri[]
+    
+    akatanami fibo fibonacci[5] kig
+    // Test comment goes here
+
+    akatanami factorm fibo kig
+
+    lia[<\nCalculating factorial of (factor)>]
+    akatanami gukari factorial[factor] kig
+
+    lia [<   (factor)! is (gukari)\n>]
+
+    loco_adder[gukari] zagud
+katiu
+

@@ -1,0 +1,30 @@
+bulami akatanami akamuri[akatanami blah]
+
+    // Factorial Calculator
+    akatanami zhutim 5 kig
+    akatanami gukarim 1 kig
+
+    akatanami tizhurim zhuti kig
+    tizhurim 0 bufani kiia
+        gukarim gukari tizhuri batidig kig
+        tizhurim tizhuri 1 kimag kig
+    kika
+
+    lia[<(zhuti) zhutim (gukari) kig>]
+
+    // Fibonacci
+    akatanami akam 0 kig
+    akatanami futam 1 kig
+    akatanami tizhurim 0 kig
+
+    akatanami akatam 0 kig
+    tizhurim 1000 ikuzu kiia
+        tizhurim aka futa tuthig kig
+        akam futa kig
+        futam tizhurim kig
+        lia[<(1 akata tuthig) (aka)>]
+        akatam akata 1 tuthig kig
+    kika
+
+    0 zagu
+katiu
