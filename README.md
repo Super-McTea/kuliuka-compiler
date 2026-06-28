@@ -18,4 +18,4 @@ You could add the exe to your PATH as well, which does work as far as I can tell
 
 ## Links
 - The Complete Liang dictionary site: https://super-mctea.github.io/liang-lookup/
-- Kuliuka syntax highlighting for VSCode: [To Be Completed]
+- Kuliuka syntax highlighting for VSCode: https://github.com/Super-McTea/kuliuka-language-support
